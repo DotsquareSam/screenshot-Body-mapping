@@ -1,0 +1,43 @@
+{
+  "name": "Dummy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/cameraroll": "^4.0.4",
+    "@viro-community/react-viro": "^2.22.0",
+    "crypto-js": "3.1.9-1",
+    "react": "^17.0.2",
+    "react-native": "0.65.1",
+    "react-native-form-validator": "^0.5.1",
+    "react-native-fs": "^2.18.0",
+    "react-native-image-mapper": "^0.1.11",
+    "react-native-share": "^7.1.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-view-shot": "^3.1.2",
+    "react-native-zigzag-lines": "^0.1.1",
+    "react-redux": "^8.0.1",
+    "redux": "^4.2.0",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.1.1",
+    "eslint": "^7.32.0",
+    "jest": "^27.1.1",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
